@@ -1,0 +1,33 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    /* 親要素のコンテナを画面全体に広げる */
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* コンテナ外にはみ出す要素を非表示にする */
+    background: linear-gradient(#dfb455,#e9744e);
+}
+
+#container {
+    position: relative; /* 子要素の絶対位置の基準にする */
+    width: 100%;
+    height: 100%;
+}
+
+.random-char {
+    position: absolute; /* 子要素を絶対位置で配置する */
+    font-size: 24px; /* 文字の大きさを調整 */
+    color: #333; /* 文字の色を調整 */
+}
+
+
+/* スマホ対応 */
+@media screen and (max-width: 600px) {
+  .oneArea {
+    height: 250px;
+  }
+
+  .oneArea p {
+    font-size: 24px;
+  }
+}
