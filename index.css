@@ -12,8 +12,17 @@ body p {
   font-weight: bold;
 }
 button {
-  padding: 8px 16px;
+  color: #000000;
   font-size: 16px;
+  font-weight: bold;
+  background: #fff;
+  padding: 18px 30px;
+  border-radius: 6px;
+  display: inline-block;
+  transition: .3s;
+}
+button:hover {
+  transform: scale(1.1);
 }
 
 /* スマホ対応 */
