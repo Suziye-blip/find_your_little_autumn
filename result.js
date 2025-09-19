@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
         twitterShareButton.href = 'https://twitter.com/share?ref_src=twsrc%5Etfw';
         twitterShareButton.setAttribute('data-show-count', 'false');
         twitterShareButton.setAttribute('data-text', message + " #小さい秋_見つけろ");
-        twitterShareButton.setAttribute('data-url', 'https://suziye-blip.github.io/find_your_little_autumn/index.html');
+        twitterShareButton.setAttribute('data-url', 'https://suziye-blip.github.io/find_your_little_autumn');
         twitterShareArea.appendChild(twitterShareButton);
 
         // Twitterウィジェットスクリプトを読み込み
