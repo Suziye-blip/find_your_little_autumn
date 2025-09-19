@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
         twitterShareButton.className = 'twitter-share-button';
         twitterShareButton.href = 'https://twitter.com/share?ref_src=twsrc%5Etfw';
         twitterShareButton.setAttribute('data-show-count', 'false');
-        twitterShareButton.setAttribute('data-text', message + " #小さい秋、見つけろ。");
+        twitterShareButton.setAttribute('data-text', message + " #小さい秋_見つけろ。");
         twitterShareArea.appendChild(twitterShareButton);
 
         // Twitterウィジェットスクリプトを読み込み
