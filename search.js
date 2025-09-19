@@ -53,11 +53,11 @@ document.addEventListener('DOMContentLoaded', () => {
             // 順位に応じてメッセージを決定
             let message = "";
             if (rank === 0) {
-                message = "1番小さい秋見つけた。";
+                message = "1番小さい秋、見つけた。";
             } else if (rank === 1) {
-                message = "2番目に小さい秋見つけた。";
+                message = "2番目に小さい秋、見つけた。";
             } else {
-                message = `${rank + 1}番目に小さい秋見つけた。`;
+                message = `${rank + 1}番目に小さい秋、見つけた。`;
             }
 
             // ここでlocalStorageにメッセージを保存
