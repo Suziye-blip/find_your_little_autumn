@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
         twitterShareArea.appendChild(script);
 
     } else {
-        resultMessageElement.textContent = "秋が見つかりませんでした。もう一度プレイしてください。";
+        resultMessageElement.textContent = "秋が見つかりませんでした。再度プレイしてください。";
         //  結果がない場合はボタンを生成しないため、何もしない
     }
 });

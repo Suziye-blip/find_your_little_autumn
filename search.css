@@ -22,12 +22,12 @@ body, html {
 
 
 /* スマホ対応 */
-@media screen and (max-width: 600px) {
-  .oneArea {
-    height: 250px;
+@media screen and (max-width: 480px) {
+  body {
+    height: 100%;
   }
 
-  .oneArea p {
-    font-size: 24px;
-  }
+  body p {
+    font-size: 32px;
+}
 }
