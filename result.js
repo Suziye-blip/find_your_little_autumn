@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
         twitterShareArea.appendChild(script);
 
     } else {
-        resultMessageElement.textContent = "小さい秋、見つかりませんでした。再度プレイしてください。";
+        resultMessageElement.textContent = "小さい秋、見つかりませんでした。再度見つけてください。";
         //  結果がない場合はボタンを生成しないため、何もしない
     }
 });
